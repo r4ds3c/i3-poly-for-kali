@@ -20,10 +20,6 @@ sudo make install # add sudo to allow the root user to install files in /usr dir
 # Install polybar
 sudo apt install polybar -y
 
-# copy config files and set wallpaper (uncomment if necessary)
-# cp -r ../../../Dots/* ~/.config
-# curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
-
 # restore sources.list to original state
 rm /etc/apt/sources.list
 mv /etc/apt/sources.list.bak /etc/apt/sources.list
